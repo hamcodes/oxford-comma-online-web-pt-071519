@@ -4,5 +4,5 @@
   
 # end
 def oxford_comma(array)
-  array.split(', ').sort.join(', ')
+  array.split(', ').sort.join(' and ')
 end
