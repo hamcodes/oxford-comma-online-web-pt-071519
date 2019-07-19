@@ -3,3 +3,6 @@
 #   array <<
   
 # end
+def oxford_comma(array)
+  array.split(', ').sort.join(', ')
+end
