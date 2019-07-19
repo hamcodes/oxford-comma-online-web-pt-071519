@@ -1,7 +1,7 @@
 # my code passes first two examples
-def oxford_comma(array)
-  array.join(" and ")
-end
+# def oxford_comma(array)
+#   array.join(" and ")
+# end
 
 #code found on stack overflow passes first two examples
 # def oxford_comma(array)  
@@ -9,3 +9,6 @@ end
 #   return array[0..-2].join(', ') + " and " + array[-1] if array.length > 1
  
 # end
+def oxford_comma(array)
+  array.join.to_sentence
+end
