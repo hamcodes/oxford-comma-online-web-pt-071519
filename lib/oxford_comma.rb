@@ -11,5 +11,5 @@
 # end
 
 def oxford_comma(array)
- array.to
+ array.to_sentence
 end
